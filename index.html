@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+	
+	
+
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+
+
+</head>
+
+<body>
+<!--pagina de inicio-->
+<div data-role="page" id="home">
+  <div data-role="header">	  
+    <h1>Universidad Autónoma de Sinaloa</h1>
+  </div>
+  <div data-role="content">
+	  <center>
+		   <a href="http://web.uas.edu.mx/web/"><img style="margin: 20px" src="images/Logotipo_UAS.png" alt="" width="30%"/></a>   
+		</center>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#fimaz">
+        <h3>Facultad de Informática Mazatlán</h3>
+      </a></li>
+      <li><a href="#oferta">
+        <h3>Oferta Educativa</h3>
+      </a></li>
+      <li><a href="#formulario">
+        <h3>Registro</h3>
+		  </a></li>
+		      <li><a href="#alumno">
+        <h3>Contactos</h3>
+		  </a></li>
+    </ul>  
+  </div>
+  <div data-role="footer" data-position="fixed" data-id="navegacion">
+	  <div data-role="navbar">
+		  <ul>
+		  	<li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+			  <li><a href="#info" data-rel="dialog" data-role="button" data-icon="info">Info</a></li>
+			  <li><a href="#fimaz" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+		  </ul>	  
+	  </div>	
+  </div>
+</div>
+	
+	<!--Pagina FIMAZ-->
+<div data-role="page" id="fimaz">
+	  <div data-role="header">
+	    <h1>Facultad de Informática Mazatlán</h1>
+      </div>
+	  <div data-role="content" align="justify">		  
+		  <center><img style="margin: 40px" src="images/logofimaz.png" width="30%" alt=""/></center>
+		  <div data-role="collapsible-set">
+		    <div data-role="collapsible">
+		      <h3>Historia</h3>
+		      <p>Durante el periodo rectoral del Lic. Audómar Ahumada Quintero (1985-1989), y siendo Coordinador Académico en la Zona Sur el M.C. Juan de Dios Garay Velázquez, se gestaron los trabajos para crear una licenciatura en informática.</p>
+	        </div>
+		    <div data-role="collapsible" data-collapsed="true">
+		      <h3>Misión</h3>
+		      <p>Formar profesionales de alto nivel, portadores de una cultura científica y humanística que respondan a las necesidades sociales sobre el manejo automatizado de la información y las tecnologías computacionales.</p>
+	        </div>
+		    <div data-role="collapsible" data-collapsed="true">
+		      <h3>Consejo Técnico</h3>
+		      <p>El consejo técnico se conforma por el Director de la Escuela o Facultad, que será su presidente, un representante de los profesores de cada grado escolar y un representante de los alumnos de cada grado escolar.</p>
+	        </div>
+	    </div>
+		  
+		
+		</div>
+	 <div data-role="footer" data-position="fixed" data-id="navegacion">
+	  <div data-role="navbar">
+		  <ul>
+		  	<li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+			  <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+			  <li><a href="#info" data-rel="dialog" data-role="button" data-icon="info">Info</a></li>
+			  <li><a href="#oferta" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+		  </ul>	  
+	  </div>	
+  </div>
+</div>
+
+	
+	<!--Pagina Oferta Educativa-->
+<div data-role="page" id="oferta">
+	  <div data-role="header">
+	    <h1>Oferta Educativa</h1>
+      </div>
+	  <div data-role="content" align="justify">
+		  
+		  <center><img style="margin: 20px" src="images/oferta-educativa.png" width="50%" alt=""/></center>
+	
+		  
+		    <div data-role="collapsible">
+		      <h3>Licentiatura en Informática</h3>
+		      <p>El objetivo del Programa Educativo Licenciatura en Informática es formar profesionales emprendedores, eficientes y con valores éticos, capacitados en la creación y mantenimiento de sistemas de información para la administración.</p>
+	        </div>
+		    <div data-role="collapsible" data-collapsed="true">
+		      <h4>Licentiatura en Ingeniería en Sistemas de Información</h4>
+		      <p>El objetivo del Programa Educativo Licenciatura en Ingeniería en Sistemas de Información es formar profesionales emprendedores, eficientes y con valores éticos, capacitados en la creación y mantenimiento de sistemas de información para la administración.</p>
+	        </div>
+		    <div data-role="collapsible" data-collapsed="true">
+		      <h3>Diplomado</h3>
+		      <p>Diplomado en Desarrollo y Administración de Aplicaciones Informáticas, es ofertado como opción de titulación.</p>
+	        </div>
+		
+		</div>
+	 <div data-role="footer" data-position="fixed">
+	  <div data-role="navbar">
+		  <ul>
+		  	<li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+			  <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+			  <li><a href="#info" data-rel="dialog" data-role="button" data-icon="info">Info</a></li>
+			  <li><a href="#formulario" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+		  </ul>	  
+	  </div>	
+  </div>
+</div>
+	
+	
+	<!--Pagina Formulario-->
+<div data-role="page" id="formulario">
+	  <div data-role="header">
+	    <h1>Registro</h1>
+      </div>
+	  <div data-role="content" align="justify">
+	
+		  <center>
+		    <img style="margin: 30px" src="images/registro.png" width="40%" alt=""/>
+          </center>
+		  <div data-role="fieldcontain">
+		    <label for="textinput">Nombre: </label>
+		    <input type="text" name="textinput" id="nombre" value="" placeholder="Nombre"  />
+	    </div>
+		  
+	    <div data-role="fieldcontain">
+		    <label for="textinput">Apellidos: </label>
+		    <input type="text" name="textinput" id="apaterno" value="" placeholder="Apellido Paterno"  />	
+		</div>
+		 <div data-role="fieldcontain">
+		    <label for="textinput"></label>
+		    <input type="text" name="textinput" id="amaterno" value="" placeholder="Apellido Materno"  />	
+		</div>
+		 <div data-role="fieldcontain">
+		   <label for="slider">Edad:</label>
+		   <input type="range" name="slider" id="slider" value="18" min="18" max="100" />
+	    </div>
+		 <div data-role="fieldcontain">
+		   <fieldset data-role="controlgroup" data-type="horizontal">
+		     <legend>Sexo:</legend>
+		     <input type="radio" name="Sexo" id="Sexo_0" value="" />
+		     <label for="Sexo_0">Maculino</label>
+		     <input type="radio" name="Sexo" id="Sexo_1" value="" />
+		     <label for="Sexo_1">Femenino</label>
+	       </fieldset>
+	    </div>
+		 <div data-role="fieldcontain">
+		   <fieldset data-role="controlgroup">
+		     <legend>Aficiones:</legend>
+		     <input type="checkbox" name="aficiones" id="aficiones_0" class="custom" value="" />
+		     <label for="aficiones_0">Escuchar Música</label>
+		     <input type="checkbox" name="aficiones" id="aficiones_1" class="custom" value="" />
+		     <label for="aficiones_1">Ir al Cine</label>
+		     <input type="checkbox" name="aficiones" id="aficiones_2" class="custom" value="" />
+		     <label for="aficiones_2">Practicar algún Deporte</label>
+	       </fieldset>
+	    </div>
+		 <div data-role="fieldcontain">
+		   <label for="email">Correo electrónico:</label>
+		   <input type="email" name="email" id="email" value=""  />
+	    </div>
+		 <div data-role="fieldcontain">
+		   <label for="flipswitch">Carrera:</label>
+		   <select name="flipswitch" id="flipswitch" data-role="slider">
+		     <option value="off">LI</option>
+		     <option value="on">LISI</option>
+	       </select>
+	    </div>
+		 <div data-role="fieldcontain">
+		   <label for="date">Fecha de Nacimiento:</label>
+		   <input type="date" name="date" id="date" value=""  />
+	    </div>	  
+		
+		</div>
+	 
+	
+	 <div data-role="footer" data-position="fixed" data-id="navegacion">
+	  <div data-role="navbar">
+		  <ul>
+		  	<li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+			  <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+			  <li><a href="#info" data-rel="dialog" data-role="button" data-icon="info">Info</a></li>
+			  <li><a href="#alumnos" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+		  </ul>	  
+	  </div>	
+  </div>
+</div>
+	
+	<!--pagina info-->
+<div data-role="page" id="info">
+	  <div data-role="header">
+	    <h1>Información</h1>
+      </div>
+	  <div data-role="content">
+		<center>
+		  Aplicación creada con JQuery Mobile y PhoneGap, mediante Dreamweaver. <br>
+		  <strong>Mónica Olivarría - Marzo 2019</strong>
+		</center>
+		  
+		  	  <a href="#" data-rel="back" data-role="button" >Cerrar</a>
+		</div>
+
+</div>
+	
+
+	
+	<!--Pagina con contactos - alumnos-->
+<div data-role="page" id="alumnos">
+	  <div data-role="header">
+	    <h1>Alumnos</h1>
+      </div>
+	  <div data-role="content">
+	    <ul data-role="listview" data-inset="true" >
+	      <li>
+			<img style="margin: 21px" src="images/alumna.png" width="32" height="32" alt=""/>  
+	        <h3>Mónica Olivarria</h3>
+	        <p>Docente de FIMAZ</p>
+	        </li>
+			 <li>
+			<img style="margin: 21px" src="images/alumno.png" width="32" height="32" alt=""/>  
+	        <h3>Rodolfo Bustamante</h3>
+	        <p>Alumno de FIMAZ</p>
+	        </li>
+	      <li>
+			<img style="margin: 21px" src="images/alumna.png" width="32" height="32" alt=""/>  
+	        <h3>Michelle Hernández</h3>
+	        <p>Alumna de FIMAZ</p>
+	        </li>
+	      <li>
+			<img style="margin: 21px" src="images/alumno.png" width="32" height="32" alt=""/>  
+	        <h3>Alejandro Almaguer</h3>
+	        <p>Alumno de FIMAZ</p>
+	        </li>
+	      <li>
+			<img style="margin: 21px" src="images/alumno.png" width="32" height="32" alt=""/>  
+	        <h3>Rafael Simancas</h3>
+	        <p>Alumno de FIMAZ</p>
+	        </li>
+	      <li>
+			<img style="margin: 21px" src="images/alumno.png" width="32" height="32" alt=""/>  
+	        <h3>Vicente Zamora</h3>
+	        <p>Alumno de FIMAZ</p>
+	        </li>
+        </ul>
+		
+		
+		
+		</div>
+	 <div data-role="footer" data-position="fixed" data-id="navegacion">
+	  <div data-role="navbar">
+		  <ul>
+		  	<li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+			  <li><a href="#home" data-role="button" data-icon="home">Inicio</a></li>
+			  <li><a href="#info" data-rel="dialog" data-role="button" data-icon="info">Info</a></li>
+			  <li><a href="#home" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+		  </ul>	  
+	  </div>	
+  </div>
+</div>
+
+		
+	
+</body>
+</html>

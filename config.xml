@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.app3-2019" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>FIMAZ</name>
+    <description>
+        Aplicación 3, app informativa sobre la Facultad de Informática.
+    </description>
+    <author email="molivarria@uas.edu.mx">
+        Mónica Olivarría
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+
+<icon src="images/Logotipo_UAS.png" gap:density="ldpi" gap:platform="android" />
+<icon src="images/Logotipo_UAS.png" gap:density="mdpi" gap:platform="android" />
+<icon src="images/Logotipo_UAS.png" gap:density="hdpi" gap:platform="android" />
+<icon src="images/Logotipo_UAS.png" gap:density="xhdpi" gap:platform="android" />
+
+</widget>
